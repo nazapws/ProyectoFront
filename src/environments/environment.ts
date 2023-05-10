@@ -7,15 +7,20 @@ export const environment = {
     projectId: 'front-4f595',
     appId: '1:6856965963:web:af2c794694a14b2db832ce',
     storageBucket: 'front-4f595.appspot.com',
+    locationId: 'southamerica-east1',
     apiKey: 'AIzaSyAm-ugSKbLXj9GyjgPRTOWsk0PGtnTUQKs',
     authDomain: 'front-4f595.firebaseapp.com',
     messagingSenderId: '6856965963',
     measurementId: 'G-PGJF4QYBZ2',
   },
-
+  
   production: false,
-  URL: 'http://localhost:8080/'
+
+  URL : 'https://backend-l8un.onrender.com/',
+  //URL : 'http://localhost:8080/',  
+
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file

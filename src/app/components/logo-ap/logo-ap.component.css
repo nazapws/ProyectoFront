@@ -36,3 +36,40 @@ img{
     margin: 0.3em;
 }
 }
+
+h1, h3{
+    display: inline;
+    font-family: 'Verdana';
+    text-shadow: 2px 2px 4px #e9e9e9;
+    color:rgb(255, 255, 255)
+}
+
+th, td{
+    border-style:none;
+}
+.contenido{
+
+    display: inline;
+    font-family: 'Verdana';
+    text-shadow: 1px 1px 1px #000000;
+    color:rgb(255, 255, 255);
+    font-size: small;
+    display: inline-block;
+    
+}
+
+h2, .h2 {
+    display: inline;
+    font-family: 'Verdana';
+    text-shadow: 2px 2px 4px #e9e9e9;
+    color:rgb(255, 255, 255);
+    font-size: calc(1.325rem + 0.9vw);
+}
+
+.boton{
+    background-color: rgb(198, 189, 220);
+    border-color: white;
+    font-family: 'Verdana';
+    text-shadow: 1px 1px 1px #827e7e;
+    font-size: small;
+}

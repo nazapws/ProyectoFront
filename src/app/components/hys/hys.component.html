@@ -1,8 +1,8 @@
 <div class="row">
 
-    <h1>Hard & Soft skills</h1>
+    <h1 class="hs">Hard & Soft skills</h1>
     <div class="col-lg-2">
-        <button type="button" routerLink="/newskill" class="btn btn-dark" *ngIf="isLogged">Nueva Skill</button>
+        <button type="button" routerLink="/newskill" class="btn boton" *ngIf="isLogged">Nueva Skill</button>
     </div>
 
   
@@ -12,7 +12,7 @@
         [percent]="(skill.porcentaje)" 
         [radius]="50" [imageSrc]="''" 
         [title]="(skill.nombre)"
-        [titleColor]="'#212F3C'"
+        [titleColor]="'#ffffff'"
         [titleFontSize]="'10'"
         [showTitle]="true" 
         [showImage]="false" 
@@ -22,8 +22,8 @@
         [showSubtitle]="false" 
         [outerStrokeWidth]="16" 
         [innerStrokeWidth]="2" 
-        [outerStrokeColor]="'#54247a'"
-        [innerStrokeColor]="'#33ccff'" 
+        [outerStrokeColor]="'#ff01ca'"
+        [innerStrokeColor]="'#009aff'" 
         [animation]="true" 
         [animationDuration]="600"
          >
